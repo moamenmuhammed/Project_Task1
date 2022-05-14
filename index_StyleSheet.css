@@ -1,0 +1,122 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.homeDiv
+{
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/slider/slider-01.jpg);
+    background-size: cover;
+    background-position: center center;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.homeDiv .homeDivLayer
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.homeDiv .homeDivLayer .upper-Bar
+{
+    width: 100%;
+    margin: auto;
+}
+
+.homeDiv .homeDivLayer .upper-Bar .upper-bar-content
+{
+    width: 85%;
+    margin: auto;
+}
+
+.homeDiv .homeDivLayer .upper-Bar .upper-bar-content .logoDiv
+{
+    float: left;
+    padding: 15px 10px;
+}
+
+.homeDiv .homeDivLayer .upper-Bar .upper-bar-content .logoDiv a
+{
+    font-size: 24px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    line-height: 20px;
+    color: #ff305b;
+    text-decoration: none;
+}
+
+.homeDiv .homeDivLayer .upper-Bar .upper-bar-content .navDiv
+{
+    float: right;
+}
+
+.homeDiv .homeDivLayer .upper-Bar .upper-bar-content .navDiv ul
+{
+    list-style-type: none;
+}
+
+.homeDiv .homeDivLayer .upper-Bar .upper-bar-content .navDiv ul li
+{
+    float: left;
+    padding: 20px 10px;
+}
+
+.homeDiv .homeDivLayer .upper-Bar .upper-bar-content .navDiv ul  li a
+{
+    font-size: 16;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    line-height: 20px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.homeDiv .homeDivLayer .slider-content
+{
+    width: 100%;
+    margin-top: 250px;
+}
+
+.homeDiv .homeDivLayer .slider-content h3
+{
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.1;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.homeDiv .homeDivLayer .slider-content h1
+{
+    color: #ff305b;
+    font-size: 70px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+}
+
+.homeDiv .homeDivLayer .slider-content h4
+{
+    color: white;
+    font-size: 26px;
+    text-transform: capitalize;
+    font-weight: 300;
+    line-height: 1.2;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+}
+
+.clr
+{
+    clear: both;
+}
